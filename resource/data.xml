@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<network>
+ <locations>
+  <location id="1" name="Temple Mount" goalRouteDistance="400" danger="3">
+        <Description>This is Temple Mount, saracen is here</Description>
+        <Objects>
+            <Object type="blade" life="-0.5" power="9"/>
+            <Object type="pood" life="+0.5"/>
+            <Object type="Holy_grail" life="+0.7"/>
+        </Objects>
+        
+   <game-characters>
+     <game_character type="saracen" name="saracen" inventory="sword" behaviour="devil" strength="7"/>
+ </game-characters>
+ 
+        <Exits>
+            
+            <Exit name="Coast" direction="E" RouteDistance="10" RouteDifficulty="2"></Exit>
+             <Exit name="Nanchang" direction="NE" RouteDistance="4" RouteDifficulty="4"></Exit>
+              <Exit name="Hattin" direction="SE" RouteDistance="10" RouteDifficulty="2"></Exit>
+        </Exits>
+  </location>
+    
+  <location id="2" name="Cyprus" goalRouteDistance="0" danger="2">
+        <Description>Welcome to Cyprus!! saracen and paul are here</Description>
+        <Objects>
+            <Object type="sword" life="-0.5" power="7"/>
+            <Object type="pood" life="+0.5"/>
+        </Objects>
+        
+<game-characters>
+    <game_character type="saracen" name="saracen" inventory="sword" behaviour="devil" strength="7"/>
+     <game_character type="friendly" name="paul" inventory="sword" behaviour="friend" strength="9"/>
+       
+</game-characters>
+        
+        <Exits>
+            <Exit name="Shanghai" direction="N" RouteDistance="10" RouteDifficulty="7"></Exit>
+            <Exit name="Beijing" direction="S" RouteDistance="6" RouteDifficulty="1"></Exit>
+            <Exit name="Guangdong" direction="W" RouteDistance="9" RouteDifficulty="9"></Exit>
+            <Exit name="Dublin" direction="SW" RouteDistance="7" RouteDifficulty="10"></Exit>
+        </Exits>
+  </location>
+    
+  <location id="3" name="Shanghai" goalRouteDistance="320" danger="1">
+        <Description>Welcome to Shanghai!! saracen ,mark and paul are here</Description>
+        <Objects>
+            <Object type="mace" life="-0.3" power="5"/>
+            <Object type="pood" life="+0.5"/>
+        </Objects>
+        
+        <game-characters>
+    <game_character type="saracen" name="saracen" inventory="sword" behaviour="devil" strength="6"/>
+     <game_character type="friendly" name="paul" inventory="sword" behaviour="friend" strength="8"/>
+     <game_character type="neutral" name="mark" inventory="medicine" behaviour="neutral" strength="4"/>
+     
+</game-characters>
+        
+        <Exits>
+            <Exit name="Cyprus" direction="S" RouteDistance="8" RouteDifficulty="2"></Exit>
+            <Exit name="Nanchang" direction="W" RouteDistance="10" RouteDifficulty="5"></Exit>
+            <Exit name="Guangdong" direction="SW" RouteDistance="6" RouteDifficulty="8"></Exit>
+        </Exits>
+  </location>
+    
+ <location id="4" name="Beijing" goalRouteDistance="340" danger="7">
+        <Description>Welcome to Beijing!!</Description>
+        <Objects>
+            <Object type="sword" life="-0.5" power="7"/>
+            <Object type="pood" life="+0.5"/>
+            <Object type="shoes" life="+0.1" speed="1"/>
+            
+        </Objects>
+        
+ <game-characters>
+     <game_character type="saracen" name="saracen" inventory="sword" behaviour="devil" strength="6"/>
+     <game_character type="friendly" name="paul" inventory="sword" behaviour="friend" strength="8"/>
+     <game_character type="neutral" name="mark" inventory="medicine" behaviour="neutral" strength="4"/>
+     
+</game-characters>
+        
+        <Exits>
+            <Exit name="Cyprus" direction="N" RouteDistance="10" RouteDifficulty="2"></Exit>
+            <Exit name="Dublin" direction="W" RouteDistance="7" RouteDifficulty="4"></Exit>
+            <Exit name="Guangdong" direction="WN" RouteDistance="3" RouteDifficulty="10"></Exit>
+        </Exits>
+ </location>
+    
+ <location id="5" name="Dublin" goalRouteDistance="200" danger="4">
+        <Description>Welcome to Dublin!! saracen is here</Description>
+        <Objects>
+            <Object type="lance" life="-0.8" power="8"/>
+            <Object type="sword" life="-0.5" power="7"/>
+            <Object type="dread" life="+0.5"/>
+        </Objects>
+        
+   <game-characters>
+    <game_character type="saracen" name="saracen" inventory="sword" behaviour="devil" strength="6"/>
+     <game_character type="friendly" name="paul" inventory="sword" behaviour="friend" strength="8"/>
+     <game_character type="neutral" name="mark" inventory="medicine" behaviour="neutral" strength="4"/>
+     
+</game-characters>
+        
+        <Exits>
+            <Exit name="Beijing" direction="E" RouteDistance="10" RouteDifficulty="2"></Exit>
+            <Exit name="Hattin" direction="W" RouteDistance="10" RouteDifficulty="2"></Exit>
+            <Exit name="Guangdong" direction="N" RouteDistance="10" RouteDifficulty="2"></Exit>
+            <Exit name="Marhet" direction="WN" RouteDistance="10" RouteDifficulty="5"></Exit>
+            <Exit name="Cyprus" direction="NE" RouteDistance="10" RouteDifficulty="2"></Exit>
+        </Exits>
+  </location>
+    
+  <location id="6" name="Guangdong" goalRouteDistance="323" danger="9">
+        <Description>Welcome to Guangdong!! saracen is here</Description>
+        <Objects>
+            <Object type="sword" life="-0.5" power="7"/>
+            <Object type="pood" life="+0.5"/>
+            <Object type="infusion" life="+0.4"/>
+            
+        </Objects>
+        
+   
+    
+     <game_character type="neutral" name="mark" inventory="medicine" behaviour="neutral" strength="5"/>
+     
+    
+        
+        <Exits>
+            <Exit name="Nanchang" direction="N" RouteDistance="10" RouteDifficulty="24"></Exit>
+            <Exit name="Dublin" direction="S" RouteDistance="10" RouteDifficulty="2"></Exit>
+            <Exit name="Marhet" direction="W" RouteDistance="10" RouteDifficulty="1"></Exit>
+            <Exit name="Cyprus" direction="E" RouteDistance="8" RouteDifficulty="4"></Exit>
+            <Exit name="Beijing" direction="SE" RouteDistance="7" RouteDifficulty="3"></Exit>
+            <Exit name="Hattin" direction="SW" RouteDistance="6" RouteDifficulty="9"></Exit>
+             <Exit name="Shanghai" direction="NE" RouteDistance="3" RouteDifficulty="8"></Exit>
+        </Exits>
+  </location>
+  
+  <location id="7" name="Nanchang" goalRouteDistance="310" danger="10">
+        <Description>Welcome to Nanchang!! saracen is here</Description>
+        <Objects>
+            <Object type="mace" life="-0.3" power="5"/>
+            <Object type="pood" life="+0.5"/>
+        </Objects>
+        
+   <game-characters>
+    <game_character type="saracen" name="saracen" inventory="sword" behaviour="devil" strength="9"/>
+     <game_character type="neutral" name="mark" inventory="medicine" behaviour="neutral" strength="8"/>
+   </game-characters>
+        
+        <Exits>
+            <Exit name="Guangdong" direction="S" RouteDistance="8" RouteDifficulty="3"></Exit>
+            <Exit name="Marhet" direction="SW" RouteDistance="10" RouteDifficulty="1"></Exit>
+            <Exit name="Cyprus" direction="SE" RouteDistance="7" RouteDifficulty="4"></Exit>
+             <Exit name="Shanghai" direction="E" RouteDistance="10" RouteDifficulty="2"></Exit>
+        </Exits>
+  </location>
+  
+  <location id="8" name="Marhet" goalRouteDistance="78" danger="6">
+        <Description>Welcome to Marhet!! saracen is here</Description>
+        <Objects>
+            <Object type="lance" life="-0.8" power="8"/>
+            <Object type="pood" life="+0.5"/>
+            <Object type="medicine" life="+0.6"/>
+            
+        </Objects>
+        
+   <game-characters>
+  <game_character type="saracen" name="saracen" inventory="sword" behaviour="devil" strength="2"/>
+     <game_character type="friendly" name="paul" inventory="sword" behaviour="friend" strength="7"/>
+     <game_character type="neutral" name="mark" inventory="medicine" behaviour="neutral" strength="3"/>
+     
+</game-characters>
+        
+        <Exits>
+            <Exit name="Hattin" direction="S" RouteDistance="10" RouteDifficulty="1"></Exit>
+            <Exit name="Coast" direction="W" RouteDistance="10" RouteDifficulty="1"></Exit>
+            <Exit name="Guangdong" direction="E" RouteDistance="7" RouteDifficulty="4"></Exit>
+            <Exit name="Dublin" direction="SE" RouteDistance="8" RouteDifficulty="3"></Exit>
+            <Exit name="Nanchang" direction="NE" RouteDistance="10" RouteDifficulty="1"></Exit>
+        </Exits>
+  </location>
+  
+   <location id="9" name="Coast" goalRouteDistance="180" danger="3">
+        <Description>Welcome to Coast!! saracen is here</Description>
+        <Objects>
+            <Object type="sword" life="-0.5" power="7"/>
+            <Object type="pood" life="+0.5"/>
+            <Object type="food" life="+0.3"/>
+            
+        </Objects>
+        
+<game-characters>
+   <game_character type="saracen" name="saracen" inventory="sword" behaviour="devil" strength="9"/>
+     <game_character type="friendly" name="paul" inventory="sword" behaviour="friend" strength="8"/>
+     <game_character type="neutral" name="mark" inventory="medicine" behaviour="neutral" strength="7"/>
+     
+</game-characters>
+        
+        <Exits>
+            <Exit name="Hattin" direction="S" RouteDistance="5" RouteDifficulty="5"></Exit>
+            <Exit name="Marhet" direction="E" RouteDistance="10" RouteDifficulty="1"></Exit>
+            <Exit name="Nanchang" direction="NE" RouteDistance="7" RouteDifficulty="4"></Exit>
+            <Exit name="Temple Mount" direction="W" RouteDistance="10" RouteDifficulty="1"></Exit>
+        </Exits>
+  </location>
+  
+   <location id="10" name="Hattin" goalRouteDistance="300" danger="5">
+        <Description>Welcome to Hattin!! saracen is here</Description>
+        <Objects>
+            <Object type="sword" life="-0.5" power="7"/>
+            <Object type="mace" life="-0.3" power="5"/>
+            <Object type="pood" life="+0.5"/>
+        </Objects>
+        
+ <game-characters>
+    <game_character type="saracen" name="saracen" inventory="sword" behaviour="devil" strength="9"/>
+     <game_character type="friendly" name="paul" inventory="sword" behaviour="friend" strength="3"/>
+</game-characters>
+        
+        <Exits>
+            <Exit name="Dublin" direction="E" RouteDistance="2" RouteDifficulty="9"></Exit>
+            <Exit name="Marhet" direction="N" RouteDistance="4" RouteDifficulty="8"></Exit>
+            <Exit name="Coast" direction="WN" RouteDistance="10" RouteDifficulty="1"></Exit>
+            <Exit name="Guangdong" direction="NE" RouteDistance="9" RouteDifficulty="3"></Exit>
+        </Exits>
+  </location>
+ </locations> 
+ 
+ <edges>
+    <!--  <edge from="Beijing" to="Guangdong" direction="WN" distance="8" danger="6" difficulty="4"></edge>
+     <edge from="Beijing" to="Dublin" direction="W" distance="6" danger="8" difficulty="3"></edge>
+     
+          <edge from="Shanghai" to="Cyprus" direction="S" distance="6" danger="6" difficulty="7"></edge>
+         
+          
+      <edge from="Nanchang" to="Shanghai" direction="E" distance="8" danger="6" difficulty="3"></edge>
+     
+          
+                
+                <edge from="Guangdong" to="Marhet" direction="W" distance="6" danger="3" difficulty="3"></edge>
+                
+                          
+      <edge from="Dublin" to="Hattin" direction="W" distance="8" danger="6" difficulty="4"></edge>
+      
+      
+       <edge from="Hattin" to="Temple Mount" direction="WN" distance="4" danger="6" difficulty="7"></edge>
+       <edge from="Hattin" to="Coast" direction="W" distance="10" danger="6" difficulty="7"></edge>
+       <edge from="Hattin" to="Marhet" direction="N" distance="4" danger="4" difficulty="7"></edge>
+       
+        <edge from="Marhet" to="Coast" direction="W" distance="4" danger="6" difficulty="7"></edge>
+       <edge from="Marhet" to="Nanchang" direction="NE" distance="4" danger="3" difficulty="7"></edge>
+       
+       
+        <edge from="Coast" to="Temple Mount" direction="W" distance="4" danger="6" difficulty="7"></edge>
+      
+       
+       <edge from="Temple Mount" to="Nanchang" direction="NE" distance="8" danger="6" difficulty="7"></edge>
+       
+       
+       <edge from="Cyprus" to="Beijing" direction="S" distance="7" danger="3" difficulty="7"></edge>
+       <edge from="Cyprus" to="Guangdong" direction="W" distance="8" danger="4" difficulty="7"></edge> -->
+       <edge from="Beijing" to="Cyprus" direction="N" distance="8" danger="6" difficulty="7"></edge>
+     <edge from="Beijing" to="Dublin" direction="W" distance="6" danger="3" difficulty="7"></edge>
+     
+          <edge from="Shanghai" to="Cyprus" direction="S" distance="8" danger="6" difficulty="7"></edge>
+          <edge from="Shanghai" to="Nanchang" direction="W" distance="4" danger="6" difficulty="3"></edge>
+          
+      <edge from="Nanchang" to="Shanghai" direction="E" distance="8" danger="6" difficulty="7"></edge>
+      <edge from="Nanchang" to="Guangdong" direction="S" distance="5" danger="6" difficulty="6"></edge>
+      <edge from="Nanchang" to="Coast" direction="WS" distance="4" danger="9" difficulty="7"></edge>
+          
+                <edge from="Guangdong" to="Nanchang" direction="N" distance="4" danger="6" difficulty="7"></edge>
+                <edge from="Guangdong" to="Dublin" direction="S" distance="8" danger="6" difficulty="7"></edge>
+                <edge from="Guangdong" to="Marhet" direction="W" distance="3" danger="7" difficulty="7"></edge>
+                <edge from="Guangdong" to="Cyprus" direction="E" distance="8" danger="6" difficulty="5"></edge>
+                          
+      <edge from="Dublin" to="Hattin" direction="W" distance="8" danger="6" difficulty="7"></edge>
+      <edge from="Dublin" to="Guangdong" direction="N" distance="4" danger="4" difficulty="7"></edge>
+      <edge from="Dublin" to="Beijing" direction="E" distance="4" danger="9" difficulty="7"></edge>
+      
+       <edge from="Hattin" to="Temple Mount" direction="WN" distance="4" danger="6" difficulty="7"></edge>
+       <edge from="Hattin" to="Dublin" direction="E" distance="8" danger="6" difficulty="2"></edge>
+       <edge from="Hattin" to="Marhet" direction="N" distance="5" danger="4" difficulty="7"></edge>
+       
+        <edge from="Marhet" to="Coast" direction="W" distance="4" danger="6" difficulty="7"></edge>
+       <edge from="Marhet" to="Hattin" direction="S" distance="3" danger="3" difficulty="6"></edge>
+       <edge from="Marhet" to="Guangdong" direction="E" distance="8" danger="4" difficulty="9"></edge>
+       
+        <edge from="Coast" to="Temple Mount" direction="W" distance="4" danger="6" difficulty="7"></edge>
+       <edge from="Coast" to="Hattin" direction="SE" distance="6" danger="6" difficulty="5"></edge>
+       <edge from="Coast" to="Nanchang" direction="NE" distance="3" danger="4" difficulty="4"></edge>
+       <edge from="Coast" to="Marhet" direction="E" distance="8" danger="8" difficulty="8"></edge>
+       
+       <edge from="Temple Mount" to="Nanchang" direction="NE" distance="4" danger="6" difficulty="7"></edge>
+       <edge from="Temple Mount" to="Coast" direction="E" distance="7" danger="3" difficulty="7"></edge>
+       <edge from="Temple Mount" to="Hattin" direction="SE" distance="2" danger="4" difficulty="9"></edge>
+       
+       <edge from="Cyprus" to="Shanghai" direction="N" distance="4" danger="6" difficulty="7"></edge>
+       <edge from="Cyprus" to="Beijing" direction="S" distance="7" danger="3" difficulty="5"></edge>
+       <edge from="Cyprus" to="Guangdong" direction="W" distance="8" danger="4" difficulty="7"></edge>
+ </edges>
+</network>
